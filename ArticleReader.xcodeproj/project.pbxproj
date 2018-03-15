@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310B448A205908450017323E /* ArticleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 310B4489205908450017323E /* ArticleParser.m */; };
+		310B448E205908BE0017323E /* SelectableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 310B448D205908BE0017323E /* SelectableLabel.m */; };
+		3117A28B205686CD0041A817 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A28A205686CD0041A817 /* AppDelegate.m */; };
+		3117A291205686CD0041A817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3117A28F205686CD0041A817 /* Main.storyboard */; };
+		3117A293205686CD0041A817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3117A292205686CD0041A817 /* Assets.xcassets */; };
+		3117A296205686CD0041A817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3117A294205686CD0041A817 /* LaunchScreen.storyboard */; };
+		3117A299205686CD0041A817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A298205686CD0041A817 /* main.m */; };
+		3117A2A52056B0DB0041A817 /* ArticleReaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A2A42056B0DB0041A817 /* ArticleReaderTableViewController.m */; };
+		3117A2A72056B42B0041A817 /* EnglishTextBook.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3117A2A62056B42B0041A817 /* EnglishTextBook.txt */; };
+		3117A2A92056B9460041A817 /* nce4_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3117A2A82056B9460041A817 /* nce4_words.txt */; };
+		3117A2AC2056CE800041A817 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3117A2AB2056CE800041A817 /* words.plist */; };
+		3117A2AF2056D1CF0041A817 /* DictionaryReaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A2AE2056D1CF0041A817 /* DictionaryReaderTableViewController.m */; };
+		3117A2B42056E9A00041A817 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3117A2B32056E9A00041A817 /* libsqlite3.0.tbd */; };
+		3117A2B62056E9B20041A817 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3117A2B52056E9B20041A817 /* libsqlite3.tbd */; };
+		3117A4342056EA290041A817 /* BaseSQLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A42E2056EA280041A817 /* BaseSQLError.m */; };
+		3117A4352056EA290041A817 /* BaseSQLiteContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A4312056EA290041A817 /* BaseSQLiteContext.m */; };
+		3117A4362056EA290041A817 /* BaseSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117A4332056EA290041A817 /* BaseSQLiteManager.m */; };
+		31DA84032057B86600054FCC /* ArticleDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DA84022057B86600054FCC /* ArticleDetailTableViewController.m */; };
+		31DA840A2057E97C00054FCC /* PinterestSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA84092057E97C00054FCC /* PinterestSegment.swift */; };
+		97466A2A93D15DEBAA271043 /* Pods_ArticleReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6FC19595B19E70C6E7250C /* Pods_ArticleReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B5AF6A2546428D01144FBB /* Pods-ArticleReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleReader/Pods-ArticleReader.release.xcconfig"; sourceTree = "<group>"; };
+		0C6FC19595B19E70C6E7250C /* Pods_ArticleReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArticleReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310B4489205908450017323E /* ArticleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleParser.m; path = ../Model/ArticleParser.m; sourceTree = "<group>"; };
+		310B448C205908BE0017323E /* SelectableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectableLabel.h; path = ../SelectableLabel/SelectableLabel.h; sourceTree = "<group>"; };
+		310B448D205908BE0017323E /* SelectableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectableLabel.m; path = ../SelectableLabel/SelectableLabel.m; sourceTree = "<group>"; };
+		3117A286205686CD0041A817 /* ArticleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3117A289205686CD0041A817 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3117A28A205686CD0041A817 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3117A290205686CD0041A817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3117A292205686CD0041A817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3117A295205686CD0041A817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3117A297205686CD0041A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/liuyuxuan/Desktop/GithubObjectiveC/RxSwiftTest/ArticleReader/ArticleReader/Info.plist; sourceTree = "<absolute>"; };
+		3117A298205686CD0041A817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3117A2A32056B0DB0041A817 /* ArticleReaderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleReaderTableViewController.h; sourceTree = "<group>"; };
+		3117A2A42056B0DB0041A817 /* ArticleReaderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleReaderTableViewController.m; sourceTree = "<group>"; };
+		3117A2A62056B42B0041A817 /* EnglishTextBook.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EnglishTextBook.txt; sourceTree = "<group>"; };
+		3117A2A82056B9460041A817 /* nce4_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nce4_words.txt; sourceTree = "<group>"; };
+		3117A2AB2056CE800041A817 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		3117A2AD2056D1CF0041A817 /* DictionaryReaderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryReaderTableViewController.h; sourceTree = "<group>"; };
+		3117A2AE2056D1CF0041A817 /* DictionaryReaderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryReaderTableViewController.m; sourceTree = "<group>"; };
+		3117A2B32056E9A00041A817 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3117A2B52056E9B20041A817 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3117A42D2056EA280041A817 /* BaseSQLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSQLError.h; sourceTree = "<group>"; };
+		3117A42E2056EA280041A817 /* BaseSQLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSQLError.m; sourceTree = "<group>"; };
+		3117A42F2056EA280041A817 /* BaseSQLTypeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSQLTypeHeader.h; sourceTree = "<group>"; };
+		3117A4302056EA280041A817 /* BaseSQLiteContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSQLiteContext.h; sourceTree = "<group>"; };
+		3117A4312056EA290041A817 /* BaseSQLiteContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSQLiteContext.m; sourceTree = "<group>"; };
+		3117A4322056EA290041A817 /* BaseSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSQLiteManager.h; sourceTree = "<group>"; };
+		3117A4332056EA290041A817 /* BaseSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSQLiteManager.m; sourceTree = "<group>"; };
+		3117A438205701570041A817 /* ArticleParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArticleParser.h; path = ../Model/ArticleParser.h; sourceTree = "<group>"; };
+		31DA84012057B86600054FCC /* ArticleDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArticleDetailTableViewController.h; path = ArticleReader/Controller/ArticleDetailTableViewController.h; sourceTree = SOURCE_ROOT; };
+		31DA84022057B86600054FCC /* ArticleDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailTableViewController.m; sourceTree = "<group>"; };
+		31DA84082057E97B00054FCC /* ArticleReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArticleReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		31DA84092057E97C00054FCC /* PinterestSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestSegment.swift; sourceTree = "<group>"; };
+		9EFF1373BC3DD25BC0FC4015 /* Pods-ArticleReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleReader/Pods-ArticleReader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3117A283205686CD0041A817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3117A2B62056E9B20041A817 /* libsqlite3.tbd in Frameworks */,
+				3117A2B42056E9A00041A817 /* libsqlite3.0.tbd in Frameworks */,
+				97466A2A93D15DEBAA271043 /* Pods_ArticleReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310B448B2059089E0017323E /* SelectableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				310B448C205908BE0017323E /* SelectableLabel.h */,
+				310B448D205908BE0017323E /* SelectableLabel.m */,
+			);
+			name = SelectableLabel;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3117A27D205686CD0041A817 = {
+			isa = PBXGroup;
+			children = (
+				3117A288205686CD0041A817 /* ArticleReader */,
+				3117A287205686CD0041A817 /* Products */,
+				3117A2B22056E99F0041A817 /* Frameworks */,
+				407DEA01B83EBF4B32E9F55D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3117A287205686CD0041A817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3117A286205686CD0041A817 /* ArticleReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3117A288205686CD0041A817 /* ArticleReader */ = {
+			isa = PBXGroup;
+			children = (
+				310B448B2059089E0017323E /* SelectableLabel */,
+				3117A43B2057018D0041A817 /* Model */,
+				3117A2AA2056B94D0041A817 /* RawData */,
+				3117A4372056EA380041A817 /* DatabaseManager */,
+				3117A2B12056E86E0041A817 /* Storyboard */,
+				3117A2A22056879A0041A817 /* ViewController */,
+				3117A2B02056E85B0041A817 /* Support Files */,
+				31DA84042057E06600054FCC /* SliderView */,
+				3117A297205686CD0041A817 /* Info.plist */,
+				3117A298205686CD0041A817 /* main.m */,
+				3117A292205686CD0041A817 /* Assets.xcassets */,
+			);
+			path = ArticleReader;
+			sourceTree = "<group>";
+		};
+		3117A2A22056879A0041A817 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3117A2A32056B0DB0041A817 /* ArticleReaderTableViewController.h */,
+				3117A2A42056B0DB0041A817 /* ArticleReaderTableViewController.m */,
+				31DA84012057B86600054FCC /* ArticleDetailTableViewController.h */,
+				31DA84022057B86600054FCC /* ArticleDetailTableViewController.m */,
+				3117A2AD2056D1CF0041A817 /* DictionaryReaderTableViewController.h */,
+				3117A2AE2056D1CF0041A817 /* DictionaryReaderTableViewController.m */,
+			);
+			name = ViewController;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3117A2AA2056B94D0041A817 /* RawData */ = {
+			isa = PBXGroup;
+			children = (
+				3117A2AB2056CE800041A817 /* words.plist */,
+				3117A2A62056B42B0041A817 /* EnglishTextBook.txt */,
+				3117A2A82056B9460041A817 /* nce4_words.txt */,
+			);
+			path = RawData;
+			sourceTree = "<group>";
+		};
+		3117A2B02056E85B0041A817 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3117A289205686CD0041A817 /* AppDelegate.h */,
+				3117A28A205686CD0041A817 /* AppDelegate.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		3117A2B12056E86E0041A817 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3117A28F205686CD0041A817 /* Main.storyboard */,
+				3117A294205686CD0041A817 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3117A2B22056E99F0041A817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3117A2B52056E9B20041A817 /* libsqlite3.tbd */,
+				3117A2B32056E9A00041A817 /* libsqlite3.0.tbd */,
+				0C6FC19595B19E70C6E7250C /* Pods_ArticleReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3117A4372056EA380041A817 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				3117A42D2056EA280041A817 /* BaseSQLError.h */,
+				3117A42E2056EA280041A817 /* BaseSQLError.m */,
+				3117A4302056EA280041A817 /* BaseSQLiteContext.h */,
+				3117A4312056EA290041A817 /* BaseSQLiteContext.m */,
+				3117A4322056EA290041A817 /* BaseSQLiteManager.h */,
+				3117A4332056EA290041A817 /* BaseSQLiteManager.m */,
+				3117A42F2056EA280041A817 /* BaseSQLTypeHeader.h */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		3117A43B2057018D0041A817 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3117A438205701570041A817 /* ArticleParser.h */,
+				310B4489205908450017323E /* ArticleParser.m */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		31DA84042057E06600054FCC /* SliderView */ = {
+			isa = PBXGroup;
+			children = (
+				31DA84092057E97C00054FCC /* PinterestSegment.swift */,
+				31DA84082057E97B00054FCC /* ArticleReader-Bridging-Header.h */,
+			);
+			path = SliderView;
+			sourceTree = "<group>";
+		};
+		407DEA01B83EBF4B32E9F55D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EFF1373BC3DD25BC0FC4015 /* Pods-ArticleReader.debug.xcconfig */,
+				09B5AF6A2546428D01144FBB /* Pods-ArticleReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3117A285205686CD0041A817 /* ArticleReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3117A29C205686CD0041A817 /* Build configuration list for PBXNativeTarget "ArticleReader" */;
+			buildPhases = (
+				345F3E0A2344F902624C6179 /* [CP] Check Pods Manifest.lock */,
+				3117A282205686CD0041A817 /* Sources */,
+				3117A283205686CD0041A817 /* Frameworks */,
+				3117A284205686CD0041A817 /* Resources */,
+				674585CBA0E5E2A1818CC7FB /* [CP] Embed Pods Frameworks */,
+				82F3E29FE14C288C9B61FECB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArticleReader;
+			productName = ArticleReader;
+			productReference = 3117A286205686CD0041A817 /* ArticleReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3117A27E205686CD0041A817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liuyuxuan;
+				TargetAttributes = {
+					3117A285205686CD0041A817 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3117A281205686CD0041A817 /* Build configuration list for PBXProject "ArticleReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3117A27D205686CD0041A817;
+			productRefGroup = 3117A287205686CD0041A817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3117A285205686CD0041A817 /* ArticleReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3117A284205686CD0041A817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3117A296205686CD0041A817 /* LaunchScreen.storyboard in Resources */,
+				3117A293205686CD0041A817 /* Assets.xcassets in Resources */,
+				3117A291205686CD0041A817 /* Main.storyboard in Resources */,
+				3117A2A92056B9460041A817 /* nce4_words.txt in Resources */,
+				3117A2AC2056CE800041A817 /* words.plist in Resources */,
+				3117A2A72056B42B0041A817 /* EnglishTextBook.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345F3E0A2344F902624C6179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArticleReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674585CBA0E5E2A1818CC7FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArticleReader/Pods-ArticleReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArticleReader/Pods-ArticleReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F3E29FE14C288C9B61FECB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArticleReader/Pods-ArticleReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3117A282205686CD0041A817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3117A2AF2056D1CF0041A817 /* DictionaryReaderTableViewController.m in Sources */,
+				31DA840A2057E97C00054FCC /* PinterestSegment.swift in Sources */,
+				3117A4362056EA290041A817 /* BaseSQLiteManager.m in Sources */,
+				31DA84032057B86600054FCC /* ArticleDetailTableViewController.m in Sources */,
+				3117A299205686CD0041A817 /* main.m in Sources */,
+				3117A4342056EA290041A817 /* BaseSQLError.m in Sources */,
+				3117A28B205686CD0041A817 /* AppDelegate.m in Sources */,
+				310B448E205908BE0017323E /* SelectableLabel.m in Sources */,
+				310B448A205908450017323E /* ArticleParser.m in Sources */,
+				3117A2A52056B0DB0041A817 /* ArticleReaderTableViewController.m in Sources */,
+				3117A4352056EA290041A817 /* BaseSQLiteContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3117A28F205686CD0041A817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3117A290205686CD0041A817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3117A294205686CD0041A817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3117A295205686CD0041A817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3117A29A205686CD0041A817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3117A29B205686CD0041A817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3117A29D205686CD0041A817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFF1373BC3DD25BC0FC4015 /* Pods-ArticleReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				INFOPLIST_FILE = ArticleReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = superhero.karen.ArticleReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArticleReader/SliderView/ArticleReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3117A29E205686CD0041A817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B5AF6A2546428D01144FBB /* Pods-ArticleReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P6TC657TC;
+				INFOPLIST_FILE = ArticleReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = superhero.karen.ArticleReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArticleReader/SliderView/ArticleReader-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3117A281205686CD0041A817 /* Build configuration list for PBXProject "ArticleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3117A29A205686CD0041A817 /* Debug */,
+				3117A29B205686CD0041A817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3117A29C205686CD0041A817 /* Build configuration list for PBXNativeTarget "ArticleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3117A29D205686CD0041A817 /* Debug */,
+				3117A29E205686CD0041A817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3117A27E205686CD0041A817 /* Project object */;
+}
