@@ -87,8 +87,7 @@
 				310B448C205908BE0017323E /* SelectableLabel.h */,
 				310B448D205908BE0017323E /* SelectableLabel.m */,
 			);
-			name = SelectableLabel;
-			path = "New Group";
+			path = SelectableLabel;
 			sourceTree = "<group>";
 		};
 		3117A27D205686CD0041A817 = {
@@ -199,8 +198,7 @@
 				3117A438205701570041A817 /* ArticleParser.h */,
 				310B4489205908450017323E /* ArticleParser.m */,
 			);
-			name = Model;
-			path = "New Group";
+			path = Model;
 			sourceTree = "<group>";
 		};
 		31DA84042057E06600054FCC /* SliderView */ = {
